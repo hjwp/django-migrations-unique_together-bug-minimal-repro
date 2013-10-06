@@ -8,3 +8,6 @@ class List(models.Model):
 class Item(models.Model):
     list = models.ForeignKey(List)
     text = models.TextField()
+
+    class Meta:
+        unique_together = ('list', 'text')
