@@ -1,0 +1,1 @@
+https://github.com/hjwp/django-migrations-unique_together-bug-minimal-repro
